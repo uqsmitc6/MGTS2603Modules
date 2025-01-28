@@ -1,0 +1,27 @@
+{
+  "version": "3.73.30119.0",
+  "course_id": "5xaJdg95kzs",
+  "title": "Match each mentorship activity with its definition:",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6Kazzxq4eHy",
+      "title": "Match each mentorship activity with its definition:",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 634
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}

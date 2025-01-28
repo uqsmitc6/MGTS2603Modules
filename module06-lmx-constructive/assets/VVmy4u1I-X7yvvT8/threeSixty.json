@@ -1,0 +1,85 @@
+{
+  "version": "3.82.31354.0",
+  "course_id": "6P1Yboo4cIV",
+  "title": "Leadership Practice: Know Yourself 13.2",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    },
+    {
+      "title": "Introduction"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6TCtkA62Dpn",
+      "title": "Leadership Practice: Know Yourself 3.1",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5d1tXmFZnbY",
+      "title": "Leadership Practice: Know Yourself 13.1",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "6rDAekTsKeY",
+      "title": "Leadership Practice: Know Yourself 13.1",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6VYymIbhj2b",
+      "title": "Leadership Practice: Know Yourself 13.1",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6hl32zPtN9B",
+      "title": "Leadership Practice: Know Yourself 13.1",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "5mnveoFqxrx",
+      "title": "Leadership Practice: Know Yourself 13.1",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6eRghfQpIB9",
+      "title": "Leadership Practice: Know Yourself 13.1",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "5zwL2qBrRyo",
+      "title": "Quiz Results",
+      "scene_index": "1.8"
+    },
+    {
+      "id": "61cfdbg38OQ",
+      "title": "Leadership Practice: Know Yourself 3.1",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "6qms5UIAJgc",
+      "title": "Leadership Practice: Know Yourself 3.1",
+      "scene_index": "2.2"
+    },
+    {
+      "id": "5o3UkC2WM1r",
+      "title": "Leadership Practice: Know Yourself 3.1",
+      "scene_index": "2.3"
+    },
+    {
+      "id": "5VFRA3AvGlx",
+      "title": "Leadership Practice: Know Yourself 3.1",
+      "scene_index": "2.4"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 634
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}

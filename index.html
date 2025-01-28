@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGTS2603 - Leadership Modules</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --uq-purple: #51247A;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: var(--uq-purple);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .intro {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            padding: 0;
+            list-style: none;
+        }
+
+        .module-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: flex-start;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .module-card:hover {
+            border-color: var(--uq-purple);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .icon-wrapper {
+            background-color: rgba(81, 36, 122, 0.1);
+            padding: 0.75rem;
+            border-radius: 8px;
+            margin-right: 1rem;
+            color: var(--uq-purple);
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .module-content {
+            flex: 1;
+        }
+
+        .module-number {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .module-title {
+            color: #1a1a1a;
+            font-size: 1.125rem;
+            font-weight: 500;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .module-card:hover .module-title {
+            color: var(--uq-purple);
+        }
+
+        @media (max-width: 1024px) {
+            .module-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .module-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MGTS2603 - Leadership Modules</h1>
+        <p class="intro">Welcome! Below are the 12 modules for Leadership. Click any module to open it in a new browser tab.</p>
+        
+        <div class="module-grid">
+            <a href="module01-overview-intro/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 1</div>
+                    <h2 class="module-title">Overview & Introduction</h2>
+                </div>
+            </a>
+
+            <a href="module02-individuals-leaders/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 2</div>
+                    <h2 class="module-title">Individuals as Leaders</h2>
+                </div>
+            </a>
+
+            <a href="module03-team-leadership/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-user-group"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 3</div>
+                    <h2 class="module-title">Team Leadership</h2>
+                </div>
+            </a>
+
+            <a href="module04-behaviour-motivation/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 4</div>
+                    <h2 class="module-title">Behaviour & Motivation</h2>
+                </div>
+            </a>
+
+            <a href="module05-contingency-theories/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 5</div>
+                    <h2 class="module-title">Contingency Theories</h2>
+                </div>
+            </a>
+
+            <a href="module06-lmx-constructive/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 6</div>
+                    <h2 class="module-title">LMX & Constructive Leadership</h2>
+                </div>
+            </a>
+
+            <a href="module07-passive-destructive/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-triangle-exclamation"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 7</div>
+                    <h2 class="module-title">Passive & Destructive Leadership</h2>
+                </div>
+            </a>
+
+            <a href="module08-power-politics-ethics/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-shield"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 8</div>
+                    <h2 class="module-title">Power, Politics & Ethical Leadership</h2>
+                </div>
+            </a>
+
+            <a href="module09-leadership-culture/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 9</div>
+                    <h2 class="module-title">Leadership & Culture</h2>
+                </div>
+            </a>
+
+            <a href="module10-communication-coaching-conflict/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 10</div>
+                    <h2 class="module-title">Communication & Conflict</h2>
+                </div>
+            </a>
+
+            <a href="module11-strategic-change/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 11</div>
+                    <h2 class="module-title">Strategic Leadership & Change</h2>
+                </div>
+            </a>
+
+            <a href="module12-crisis-learning-org/index.html" target="_blank" class="module-card">
+                <div class="icon-wrapper">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="module-content">
+                    <div class="module-number">Module 12</div>
+                    <h2 class="module-title">Crisis & The Learning Organisation</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
